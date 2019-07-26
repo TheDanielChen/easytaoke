@@ -1,14 +1,14 @@
 {
-    "name": "niugengyun/easytbk",
+    "name": "cstopery/easytaoke",
     "type": "library",
-    "description": "no description",
+    "description": "easytaoke",
     "keywords": ["sdk"],
-    "homepage": "https://github.com/niugengyun/easytbk",
+    "homepage": "https://github.com/cstopery/easytaoke",
     "license": "MIT",
     "authors": [
         {
-            "name": "niugengyun",
-            "email": "515343908@qq.com"
+            "name": "cstopery",
+            "email": "1103321658@qq.com"
         }
     ],
     "require": {
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NiuGengYun\\EasyTBK\\": "src/"
+            "Cstopery\\EasyTaoKe\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NiuGengYun\\EasyTBK\\ServiceProvider"
+                "Cstopery\\EasyTaoKe\\ServiceProvider"
             ]
         }
     }
