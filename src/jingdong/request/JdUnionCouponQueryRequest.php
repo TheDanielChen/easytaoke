@@ -1,12 +1,12 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace Cstopery\EasyTaoKe\JingDong\Request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use Cstopery\EasyTaoKe\JingDong\RequestInterface;
 
 /**
  * Class JdUnionCouponQueryRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package Cstopery\EasyTaoKe\JingDong\Request
  */
 class JdUnionCouponQueryRequest implements RequestInterface
 {

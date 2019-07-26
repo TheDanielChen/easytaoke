@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Request;
+namespace Cstopery\EasyTaoKe\TaoBao\Request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use Cstopery\EasyTaoKe\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.openim.ioscert.production.set request
  *

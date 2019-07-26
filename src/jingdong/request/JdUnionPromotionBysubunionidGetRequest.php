@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace Cstopery\EasyTaoKe\JingDong\Request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use Cstopery\EasyTaoKe\JingDong\RequestInterface;
 
 
 /**
  * Class JdUnionPromotionBysubunionidGetRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package Cstopery\EasyTaoKe\JingDong\Request
  */
 class JdUnionPromotionBysubunionidGetRequest implements RequestInterface
 {

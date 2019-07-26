@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: niugengyun
+ * User: Cstopery
  * Date: 2018/11/20
  * Time: 下午6:45
  */
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace Cstopery\EasyTaoKe\PinDuoDuo\Request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use Cstopery\EasyTaoKe\PinDuoDuo\RequestInterface;
 
 
 class DdkPhraseGenerateRequest implements RequestInterface

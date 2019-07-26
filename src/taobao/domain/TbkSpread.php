@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace Cstopery\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 传播形式对象列表

@@ -6,22 +6,22 @@
 1、安装扩展包
 
 ```bash
-composer require niugengyun/easytbk
+composer require Cstopery/EasyTaoKe
 ```
 
 
-2、执行下面的命令，然后修改config/easytbk.php
+2、执行下面的命令，然后修改config/EasyTaoKe.php
 
 ```bash
-php artisan vendor:publish --provider "NiuGengYun\EasyTBK\ServiceProvider"
+php artisan vendor:publish --provider "Cstopery\EasyTaoKe\ServiceProvider"
 ```
 
 3、淘宝SDK初始化
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\TaoBao\Request\TbkItemInfoGetRequest;
+use Cstopery\EasyTaoKe\Factory;
+use Cstopery\EasyTaoKe\TaoBao\Request\TbkItemInfoGetRequest;
 
 $client = Factory::taobao ();
 $req = new TbkItemInfoGetRequest;

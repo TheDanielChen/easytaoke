@@ -6,10 +6,10 @@
  * @date   2015-9-14
  */
 
-namespace NiuGengYun\EasyTBK\SuNing\Request\NetallianceJu;
+namespace Cstopery\EasyTaoKe\SuNing\Request\NetallianceJu;
 
-use NiuGengYun\EasyTBK\SuNing\SelectSuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use Cstopery\EasyTaoKe\SuNing\SelectSuningRequest;
+use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class JuInfomationQueryRequest extends SelectSuningRequest
 {

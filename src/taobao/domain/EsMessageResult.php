@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace Cstopery\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 应用消息查询结果

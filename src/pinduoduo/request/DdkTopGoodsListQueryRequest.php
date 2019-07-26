@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace Cstopery\EasyTaoKe\PinDuoDuo\Request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use Cstopery\EasyTaoKe\PinDuoDuo\RequestInterface;
 
 
 class DdkTopGoodsListQueryRequest implements RequestInterface

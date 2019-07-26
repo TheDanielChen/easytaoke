@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace Cstopery\EasyTaoKe;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Laravel\Lumen\Application as LumenApplication;
@@ -36,11 +36,11 @@ class ServiceProvider extends LaravelServiceProvider
     {
         $source = realpath (__DIR__ . '/config.php');
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole ()) {
-            $this->publishes ([$source => config_path ('easytbk.php')]);
+            $this->publishes ([$source => config_path ('EasyTaoKe.php')]);
         } elseif ($this->app instanceof LumenApplication) {
-            $this->app->configure ('easytbk');
+            $this->app->configure ('EasyTaoKe');
         }
-        $this->mergeConfigFrom ($source, 'easytbk');
+        $this->mergeConfigFrom ($source, 'EasyTaoKe');
     }
 
 }

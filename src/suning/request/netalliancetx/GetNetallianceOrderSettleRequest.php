@@ -6,10 +6,10 @@
  * @date   2014-10-16
  */
 
-namespace NiuGengYun\EasyTBK\SuNing\Request\NetallianceTx;
+namespace Cstopery\EasyTaoKe\SuNing\Request\NetallianceTx;
 
-use NiuGengYun\EasyTBK\SuNing\SuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use Cstopery\EasyTaoKe\SuNing\SuningRequest;
+use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class GetNetallianceOrderSettleRequest extends SuningRequest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace Cstopery\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 淘客定向招商活动基本信息

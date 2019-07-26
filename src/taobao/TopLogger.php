@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao;
+namespace Cstopery\EasyTaoKe\TaoBao;
 
 class TopLogger
 {

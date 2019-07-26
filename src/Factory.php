@@ -1,11 +1,11 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace Cstopery\EasyTaoKe;
 
 use function GuzzleHttp\Psr7\str;
-use NiuGengYun\EasyTBK\TaoBao\Application as TaoBao;
-use NiuGengYun\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
-use NiuGengYun\EasyTBK\JingDong\Application as JingDong;
+use Cstopery\EasyTaoKe\TaoBao\Application as TaoBao;
+use Cstopery\EasyTaoKe\PinDuoDuo\Application as PinDuoDuo;
+use Cstopery\EasyTaoKe\JingDong\Application as JingDong;
 
 /**
  * Class Factory.
@@ -54,7 +54,7 @@ class Factory
      */
     public function getConfigName()
     {
-        return "easytbk";
+        return "EasyTaoKe";
     }
 
     /**
