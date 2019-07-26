@@ -6,7 +6,7 @@
 1、安装扩展包
 
 ```bash
-composer require Cstopery/EasyTaoKe
+composer require  "cstopery/easytaoke:dev-master"
 ```
 
 
